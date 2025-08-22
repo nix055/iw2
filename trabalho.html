@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site Modelo Bootstrap</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <style>
+ 
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    main {
+      flex: 1;
+    }
+    .navbar-custom-text {
+      font-family:"Poppins", "Monsters Inc. Font";
+      font-size: 30Px;                    
+      font-weight: 600; 
+    }
+  </style>
+</head>
+<body>
+ 
+ 
+  <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: rgb(66, 137, 219)">
+    <div class="container-fluid">
+      <a class="navbar-brand  navbar-custom-text" href="#">Monsters, inc.</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+              aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">trabalhe conosco</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+ 
+  <div class="container-fluid p-0 text-center">
+    <img src="img/17-177902_monsters-inc-hd-png-download.png"
+         class="img-fluid"
+         alt="Banner"
+         style="width: 60%; height: 250px;">
+  </div>
+ 
+  <main class="container mt-4 mb-4">
+    <div class="row">
+     
+      <div class="col-md-3">
+        <div class="list-group shadow-sm">
+          <a href="#" class="list-group-item list-group-item-action active">Menu Principal</a>
+          <a href="#" class="list-group-item list-group-item-action">Início</a>
+          <a href="#" class="list-group-item list-group-item-action">nossos serviços</a>
+          <a href="#" class="list-group-item list-group-item-action">vagas</a>
+          <a href="#" class="list-group-item list-group-item-action">alertas</a>
+          <a href="#" class="list-group-item list-group-item-action">Ajuda</a>
+        </div>
+      </div>
+ 
+     
+      <div class="col-md-9">
+        <h2 class="mb-3">Sobre Nós</h2>
+        <p>Monstros, Inc. é a empresa líder no mundo da energia, e a sua principal fonte de energia é o poder do susto. Nosso trabalho é assustar crianças humanas para coletar seus gritos, uma forma poderosa e limpa de energia.</p>
+       
+        <h3 class="mt-4">Nossa Equipe</h3>
+        <p>Localizada em uma dimensão paralela, a Monstros, Inc. tem uma equipe dedicada de monstros assustadores, liderados pelos melhores no ramo: o talentoso e destemido James P. Sullivan, e seu braço-direito, o monstruoso e carismático Mike Wazowski. Nós nos orgulhamos de ser uma empresa familiar, onde cada susto e cada grito é cuidadosamente planejado para maximizar a eficiência energética.</p>
+ 
+        <h3 class="mt-4">Inovação e Segurança</h3>
+        <p>Nossos coletores de gritos são os mais inovadores do mercado, garantindo a segurança de todos os nossos monstros e, é claro, das crianças. Na Monstros, Inc., nós levamos a sério a nossa responsabilidade com o meio ambiente e a segurança. Estamos sempre em busca de novas e mais seguras formas de gerar energia, e temos a honra de ser uma das empresas mais confiáveis e respeitadas do nosso mundo.</p>
+ 
+        <h3 class="mt-4">Nosso Compromisso</h3>
+        <p>Então, na próxima vez que você ouvir um grito no meio da noite, não se preocupe: somos apenas nós, fazendo o nosso trabalho para manter as luzes acesas.</p>
+      </div>
+    </div>
+  </main>
+ 
+ 
+  <footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+      <p class="mb-0">© 2025 Meu Site - Todos os direitos reservados</p>
+      <small>Desenvolvido por CDA agente</small>
+    </div>
+  </footer>
+ 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
